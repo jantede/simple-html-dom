@@ -1,0 +1,17 @@
+{
+	"name": "SimpleHtmlDom/SimpleHtmlDom",
+	"type": "library",
+	"description": "A HTML DOM parser written in PHP5+ let you manipulate HTML in a very easy way!",
+	"license": "MIT",
+	"require": {
+		"php": ">=5"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "~4.8"
+	},
+	"autoload": {
+		"psr-4": {
+			"SimpleHtmlDom\\": "src/SimpleHtmlDom"
+		}
+	}
+}
