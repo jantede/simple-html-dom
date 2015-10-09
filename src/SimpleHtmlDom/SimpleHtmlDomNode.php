@@ -44,7 +44,7 @@
  * @author S.C. Chen <me578022@gmail.com>
  */
  
-namespace SimpleHtmlDom;å
+namespace SimpleHtmlDom;
 
 /**
  * simple html dom node
