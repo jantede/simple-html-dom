@@ -1,5 +1,5 @@
 {
-	"name": "jantede/SimpleHtmlDom",
+	"name": "jantede/simple-html-dom",
 	"type": "library",
 	"description": "A HTML DOM parser written in PHP5+ let you manipulate HTML in a very easy way!",
 	"license": "MIT",
