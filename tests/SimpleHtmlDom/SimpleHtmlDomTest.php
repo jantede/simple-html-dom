@@ -18,6 +18,6 @@
 			$dom = new SimpleHtmlDom;
 			$dom->load('<html><head><title>Test</title></head><body><p id="test">Some Content and <a href="http://example.org">a link</a></p><p id="test2>A second text</p></body></html>');
 			
-			$this->assertEquals('http://example.org', $dom->find('p[id=test]')->find('a')->href);
+			$this->assertEquals('http://example.org', $dom->find('p[id=test]', 0)->find('a')->href);
 		}
 	}
