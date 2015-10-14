@@ -20,4 +20,12 @@
 			
 			$this->assertEquals('http://example.org', $dom->find('p[id=test]', 0)->find('a', 0)->href);
 		}
+		
+		public function testGetImageSource()
+		{
+			$dom = new SimpleHtmlDom;
+			$dom->load('<html><head><title>Test</title></head><body><img src="http://example.org"></img></body></html>');
+			
+			$this->assertEquals('http://example.org', $dom->find('img', 0)->src);
+		}
 	}
