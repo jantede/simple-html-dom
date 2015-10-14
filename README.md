@@ -1,4 +1,4 @@
-# simple-html-dom
+# simple-html-dom ![Builds](https://travis-ci.org/jantede/simple-html-dom.svg?branch=master)
 **Warning**: This is a fork of a project found at [SourceForge](http://simplehtmldom.sourceforge.net). I forked it in order to make this awesome library composer-ready :)
 
 ###Information about the library
